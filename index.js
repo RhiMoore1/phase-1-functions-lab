@@ -9,7 +9,6 @@ function distanceFromHqInBlocks(distance) {
 
 
 function distanceFromHqInFeet(distance) {
-    distanceFromHqInBlocks(distance);
     return distanceFromHqInBlocks(distance) * convertBlockToFeet; 
 }
 
